@@ -232,8 +232,13 @@ nav {
 /* ABOUT SECTION */
 .about {
   display: flex;
-  background-color: #ffc155;
-
+  background: rgb(181, 123, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(181, 123, 0, 1) 0%,
+    rgba(218, 147, 2, 1) 0%,
+    rgba(255, 193, 85, 1) 100%
+  );
   &__image {
     flex: 1;
 
@@ -388,7 +393,13 @@ nav {
 
 /* CLIENTS SECTION */
 .clients {
-  background-color: #ffc155;
+  background: rgb(181, 123, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(181, 123, 0, 1) 0%,
+    rgba(218, 147, 2, 1) 0%,
+    rgba(255, 193, 85, 1) 100%
+  );
   padding-bottom: 160px;
 
   .title {
@@ -582,7 +593,8 @@ footer {
   }
 
   .copyright {
-    background-color: #709dca;
+    background: rgb(50, 117, 185);
+    background: radial-gradient(circle, rgba(50, 117, 185, 1) 0%, rgba(112, 157, 202, 1) 100%);
     color: #fff;
     font-size: 13px;
     text-align: center;

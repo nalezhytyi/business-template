@@ -270,7 +270,9 @@ nav .menu .active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #ffc155;
+  background: #b57b00;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b57b00), color-stop(0%, #da9302), to(#ffc155));
+  background: linear-gradient(180deg, #b57b00 0%, #da9302 0%, #ffc155 100%);
 }
 
 .about__image {
@@ -441,7 +443,9 @@ nav .menu .active {
 
 /* CLIENTS SECTION */
 .clients {
-  background-color: #ffc155;
+  background: #b57b00;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b57b00), color-stop(0%, #da9302), to(#ffc155));
+  background: linear-gradient(180deg, #b57b00 0%, #da9302 0%, #ffc155 100%);
   padding-bottom: 160px;
 }
 
@@ -661,7 +665,8 @@ footer .container .social a .fa-twitter {
 }
 
 footer .copyright {
-  background-color: #709dca;
+  background: #3275b9;
+  background: radial-gradient(circle, #3275b9 0%, #709dca 100%);
   color: #fff;
   font-size: 13px;
   text-align: center;
