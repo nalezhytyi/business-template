@@ -176,7 +176,9 @@ nav .menu .active {
 /* BANNER SECTION */
 .banner {
   text-align: center;
-  background-color: #709dca;
+  background: #00d4ff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#00d4ff), color-stop(82%, #709dca));
+  background: linear-gradient(0deg, #00d4ff 0%, #709dca 82%);
   padding-top: 180px;
   padding-bottom: 341px;
   position: relative;
