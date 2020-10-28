@@ -582,12 +582,11 @@ footer {
   }
 
   .copyright {
-    height: 49px;
     background-color: #709dca;
     color: #fff;
     font-size: 13px;
     text-align: center;
-    padding: 17px 0;
+    padding: 15px;
   }
 }
 
@@ -814,8 +813,14 @@ footer {
     margin: 80px auto;
   }
 
-  footer .container nav .menu-footer {
-    grid-template-columns: 1fr;
+  footer {
+    .container {
+      nav {
+        .menu-footer {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
   }
 }
 

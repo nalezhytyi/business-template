@@ -661,12 +661,11 @@ footer .container .social a .fa-twitter {
 }
 
 footer .copyright {
-  height: 49px;
   background-color: #709dca;
   color: #fff;
   font-size: 13px;
   text-align: center;
-  padding: 17px 0;
+  padding: 15px;
 }
 
 /* MEDIA QUERIES */
