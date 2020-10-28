@@ -745,7 +745,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .banner {
+ .banner {
     padding-bottom: 300px;
   }
 
@@ -770,6 +770,12 @@ footer {
 }
 
 @media screen and (max-width: 465px) {
+  nav {
+    .menu {
+      width: 75%;
+    }
+  }
+
   .banner {
     padding-bottom: 170px;
   }

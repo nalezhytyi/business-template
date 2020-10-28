@@ -845,6 +845,9 @@ footer .copyright {
 }
 
 @media screen and (max-width: 465px) {
+  nav .menu {
+    width: 75%;
+  }
   .banner {
     padding-bottom: 170px;
   }
