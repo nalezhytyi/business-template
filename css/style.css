@@ -20,7 +20,6 @@ header {
 }
 
 .heading {
-  padding-top: 137px;
   margin-bottom: 78px;
   text-align: center;
   padding: 137px 15px 0;
@@ -251,7 +250,7 @@ nav .menu .active {
 
 .service .container .service__item img {
   position: absolute;
-  left: 0;
+  left: 100;
 }
 
 .service .container .service__item .service__item_text {
@@ -675,27 +674,12 @@ footer .copyright {
   .container {
     padding: 0 15px;
   }
-  .service {
-    margin-top: 73px;
-    margin-bottom: 155px;
-  }
   .service .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    display: block;
   }
   .service .container .service__item {
     max-width: 512px;
+    margin: 0 auto 80px;
   }
   .about {
     -webkit-box-orient: vertical;
@@ -868,7 +852,10 @@ footer .copyright {
     display: block;
   }
   .clients .container .testimonial .testimonial__content {
-    margin: 29px 0 0;
+    margin: 30px 0 0;
+  }
+  .about .about__content .about__content_inner {
+    margin: 80px auto;
   }
   footer .container nav .menu-footer {
     -ms-grid-columns: 1fr;
