@@ -83,6 +83,13 @@ nav {
   text-transform: uppercase;
   font-size: 14px;
 
+  .logo {
+    img{
+      max-height: 40px;
+    }
+    
+  }
+
   .burger {
     display: none;
 
@@ -704,6 +711,12 @@ footer {
   }
 
   nav {
+    .logo {
+      img{
+        max-height: 30px;
+      }
+      
+    }
     .menu {
       position: fixed;
       right: 0px;

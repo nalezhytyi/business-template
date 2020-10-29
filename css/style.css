@@ -92,6 +92,10 @@ nav {
   font-size: 14px;
 }
 
+nav .logo img {
+  max-height: 40px;
+}
+
 nav .burger {
   display: none;
 }
@@ -765,6 +769,9 @@ footer .copyright {
 @media screen and (max-width: 935px) {
   body {
     overflow-x: hidden;
+  }
+  nav .logo img {
+    max-height: 30px;
   }
   nav .menu {
     position: fixed;
