@@ -679,7 +679,7 @@ footer .container .social a i {
   color: #709dca;
 }
 
-footer .container .social a .fa-twitter {
+footer .container .social a i:hover {
   color: #ffc155;
 }
 

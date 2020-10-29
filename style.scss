@@ -594,9 +594,10 @@ footer {
         i {
           font-size: 18px;
           color: #709dca;
-        }
-        .fa-twitter {
-          color: #ffc155;
+
+          &:hover {
+            color: #ffc155;
+          }
         }
       }
     }
