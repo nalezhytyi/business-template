@@ -18,7 +18,7 @@
   min-width: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#00d4ff), color-stop(82%, #709dca));
   background: linear-gradient(0deg, #00d4ff 0%, #709dca 82%);
-  background: #709dca url(http://hello-site.ru//main/images/preloads/bars.svg) center center no-repeat;
+  background: #709dca url("../images/bars.svg") center center no-repeat;
   background-size: 41px;
 }
 
