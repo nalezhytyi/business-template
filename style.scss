@@ -17,8 +17,7 @@
   height: 100%;
   min-width: 100%;
   background: linear-gradient(0deg, rgba(0, 212, 255, 1) 0%, rgba(112, 157, 202, 1) 82%);
-  background: rgba(112, 157, 202, 1) url('../images/bars.svg') center
-    center no-repeat;
+  background: rgba(112, 157, 202, 1) url('../images/bars.svg') center center no-repeat;
   background-size: 41px;
 }
 
@@ -84,10 +83,9 @@ nav {
   font-size: 14px;
 
   .logo {
-    img{
+    img {
       max-height: 40px;
     }
-    
   }
 
   .burger {
@@ -254,13 +252,8 @@ nav {
 /* ABOUT SECTION */
 .about {
   display: flex;
-  background: rgb(181, 123, 0);
-  background: linear-gradient(
-    180deg,
-    rgba(181, 123, 0, 1) 0%,
-    rgba(218, 147, 2, 1) 0%,
-    rgba(255, 193, 85, 1) 100%
-  );
+  background: rgb(255, 168, 16);
+  background: linear-gradient(180deg, rgba(255, 168, 16, 1) 0%, rgba(255, 193, 85, 1) 100%);
   &__image {
     flex: 1;
 
@@ -415,13 +408,8 @@ nav {
 
 /* CLIENTS SECTION */
 .clients {
-  background: rgb(181, 123, 0);
-  background: linear-gradient(
-    180deg,
-    rgba(181, 123, 0, 1) 0%,
-    rgba(218, 147, 2, 1) 0%,
-    rgba(255, 193, 85, 1) 100%
-  );
+  background: rgb(255, 168, 16);
+  background: linear-gradient(180deg, rgba(255, 168, 16, 1) 0%, rgba(255, 193, 85, 1) 100%);
   padding-bottom: 160px;
 
   .title {
@@ -712,10 +700,9 @@ footer {
 
   nav {
     .logo {
-      img{
+      img {
         max-height: 30px;
       }
-      
     }
     .menu {
       position: fixed;

@@ -289,9 +289,9 @@ nav .menu .active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #b57b00;
-  background: -webkit-gradient(linear, left top, left bottom, from(#b57b00), color-stop(0%, #da9302), to(#ffc155));
-  background: linear-gradient(180deg, #b57b00 0%, #da9302 0%, #ffc155 100%);
+  background: #ffa810;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffa810), to(#ffc155));
+  background: linear-gradient(180deg, #ffa810 0%, #ffc155 100%);
 }
 
 .about__image {
@@ -462,9 +462,9 @@ nav .menu .active {
 
 /* CLIENTS SECTION */
 .clients {
-  background: #b57b00;
-  background: -webkit-gradient(linear, left top, left bottom, from(#b57b00), color-stop(0%, #da9302), to(#ffc155));
-  background: linear-gradient(180deg, #b57b00 0%, #da9302 0%, #ffc155 100%);
+  background: #ffa810;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffa810), to(#ffc155));
+  background: linear-gradient(180deg, #ffa810 0%, #ffc155 100%);
   padding-bottom: 160px;
 }
 
