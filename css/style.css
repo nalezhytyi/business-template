@@ -67,7 +67,7 @@ header {
 }
 
 .btn:hover {
-  background-color: #e2e9f0;
+  background-color: #e2e9f059;
   color: #394b50;
 }
 
@@ -127,8 +127,7 @@ nav .menu__link {
 
 nav .menu__link:hover {
   border-radius: 3px;
-  color: white;
-  background-color: #ffbb42;
+  background-color: #e2e9f059;
 }
 
 nav .menu .active {
@@ -144,7 +143,6 @@ nav .menu .active {
 .form input {
   border-radius: 3px;
   padding: 17px 0 17px 44px;
-  font-size: 13px;
   color: #b4b4b4;
   min-width: 281px;
   margin-right: 10px;
