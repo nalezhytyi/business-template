@@ -35,9 +35,8 @@ header {
 }
 
 .heading {
-  margin-bottom: 78px;
   text-align: center;
-  padding: 137px 15px 0;
+  padding: 80px 15px;
 }
 
 .title {
@@ -189,19 +188,24 @@ nav .menu .active {
   padding: 17px 45px;
 }
 
+.service,
+.pricing,
+.clients {
+  padding-bottom: 155px;
+}
+
 /* BANNER SECTION */
 .banner {
   text-align: center;
   background: #00d4ff;
   background: -webkit-gradient(linear, left bottom, left top, from(#00d4ff), color-stop(82%, #709dca));
   background: linear-gradient(0deg, #00d4ff 0%, #709dca 82%);
-  padding-top: 180px;
-  padding-bottom: 341px;
+  padding-bottom: 340px;
   position: relative;
 }
 
 .banner .heading {
-  padding: 0 15px;
+  padding: 137px 15px 50px;
 }
 
 .banner .heading .title {
@@ -239,8 +243,7 @@ nav .menu .active {
 
 /* SERVICE SECTION  */
 .service {
-  margin-top: 73px;
-  margin-bottom: 155px;
+  margin-top: 80px;
 }
 
 .service .container {
@@ -350,7 +353,6 @@ nav .menu .active {
   border: 1px solid #ccd5df;
   border-radius: 3px;
   padding: 57px 31px 48px 31px;
-  margin-bottom: 194px;
   margin-right: 15px;
   text-align: center;
   -webkit-transition: all 0.5s ease;
@@ -420,7 +422,7 @@ nav .menu .active {
 /* STEPS SECTION */
 .steps {
   text-align: center;
-  margin-bottom: 149px;
+  margin-bottom: 80px;
 }
 
 .steps .container {
@@ -433,7 +435,7 @@ nav .menu .active {
 }
 
 .steps .container .steps__item {
-  margin: 107px 0 91px;
+  margin: 0 0 80px;
   max-width: 213px;
   position: relative;
 }
@@ -463,7 +465,6 @@ nav .menu .active {
   background: #ffa810;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffa810), to(#ffc155));
   background: linear-gradient(180deg, #ffa810 0%, #ffc155 100%);
-  padding-bottom: 160px;
 }
 
 .clients .title {
@@ -555,10 +556,6 @@ nav .menu .active {
 /* NEWSLETTER */
 .newsletter {
   text-align: center;
-}
-
-.newsletter .heading {
-  margin-bottom: 38px;
 }
 
 /* MAP SECTION */
@@ -701,6 +698,9 @@ footer .copyright {
     max-width: 512px;
     margin: 0 auto 80px;
   }
+  .service .container .service__item:last-child {
+    margin: 0 auto;
+  }
   .about {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -821,7 +821,7 @@ footer .copyright {
 
 @media screen and (max-width: 880px) {
   .form {
-    padding: 25px;
+    padding: 0 25px 15px;
   }
   .form div {
     min-width: 100%;
@@ -837,6 +837,11 @@ footer .copyright {
 @media screen and (max-width: 768px) {
   .banner {
     padding-bottom: 300px;
+  }
+  .service,
+  .pricing,
+  .clients {
+    padding-bottom: 80px;
   }
   footer .container nav .menu-footer {
     display: -ms-grid;
@@ -856,7 +861,10 @@ footer .copyright {
     width: 75%;
   }
   .banner {
-    padding-bottom: 170px;
+    padding-bottom: 155px;
+  }
+  .banner .heading {
+    padding: 100px 15px 20px;
   }
   .pricing .container .plan h3::before {
     left: 4rem;

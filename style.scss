@@ -34,9 +34,8 @@ header {
 }
 
 .heading {
-  margin-bottom: 78px;
   text-align: center;
-  padding: 137px 15px 0;
+  padding: 80px 15px;
 }
 
 .title {
@@ -166,17 +165,23 @@ nav {
   }
 }
 
+.service,
+.pricing,
+.clients {
+  padding-bottom: 155px;
+}
+
 /* BANNER SECTION */
 .banner {
   text-align: center;
   background: rgb(0, 212, 255);
   background: linear-gradient(0deg, rgba(0, 212, 255, 1) 0%, rgba(112, 157, 202, 1) 82%);
-  padding-top: 180px;
-  padding-bottom: 341px;
+  padding-bottom: 340px;
   position: relative;
 
   .heading {
-    padding: 0 15px;
+    padding: 137px 15px 50px;
+
     .title {
       color: #fff;
     }
@@ -212,8 +217,7 @@ nav {
 
 /* SERVICE SECTION  */
 .service {
-  margin-top: 73px;
-  margin-bottom: 155px;
+  margin-top: 80px;
 
   .container {
     display: grid;
@@ -290,7 +294,6 @@ nav {
 /* PRICING SECTION */
 .pricing {
   background-color: #e7edf3;
-
   .container {
     display: flex;
     justify-content: center;
@@ -300,7 +303,6 @@ nav {
       border: 1px solid #ccd5df;
       border-radius: 3px;
       padding: 57px 31px 48px 31px;
-      margin-bottom: 194px;
       margin-right: 15px;
       text-align: center;
       transition: all 0.5s ease;
@@ -370,14 +372,14 @@ nav {
 /* STEPS SECTION */
 .steps {
   text-align: center;
-  margin-bottom: 149px;
+  margin-bottom: 80px;
 
   .container {
     display: flex;
     justify-content: space-between;
 
     .steps__item {
-      margin: 107px 0 91px;
+      margin: 0 0 80px;
       max-width: 213px;
       position: relative;
 
@@ -408,7 +410,6 @@ nav {
 .clients {
   background: rgb(255, 168, 16);
   background: linear-gradient(180deg, rgba(255, 168, 16, 1) 0%, rgba(255, 193, 85, 1) 100%);
-  padding-bottom: 160px;
 
   .title {
     color: #fff;
@@ -431,7 +432,7 @@ nav {
       border-radius: 3px;
 
       &:hover {
-        transform: scale(.98);
+        transform: scale(0.98);
       }
 
       img {
@@ -488,10 +489,6 @@ nav {
 /* NEWSLETTER */
 .newsletter {
   text-align: center;
-
-  .heading {
-    margin-bottom: 38px;
-  }
 }
 
 /* MAP SECTION */
@@ -624,6 +621,10 @@ footer {
       .service__item {
         max-width: 512px;
         margin: 0 auto 80px;
+
+        &:last-child {
+          margin: 0 auto;
+        }
       }
     }
   }
@@ -750,7 +751,7 @@ footer {
 
 @media screen and (max-width: 880px) {
   .form {
-    padding: 25px;
+    padding: 0 25px 15px;
     div {
       min-width: 100%;
       input {
@@ -766,6 +767,12 @@ footer {
 @media screen and (max-width: 768px) {
   .banner {
     padding-bottom: 300px;
+  }
+
+  .service,
+  .pricing,
+  .clients {
+    padding-bottom: 80px;
   }
 
   footer {
@@ -796,7 +803,11 @@ footer {
   }
 
   .banner {
-    padding-bottom: 170px;
+    padding-bottom: 155px;
+
+    .heading {
+      padding: 100px 15px 20px;
+    }
   }
 
   .pricing {
